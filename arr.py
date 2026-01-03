@@ -5,6 +5,8 @@ def main():
     print("== main/master output ==")
     print(f"total: {total}")
     print(f"average: {average}")
+    print(f"minimun:{min(scores)}")
+    print(f"maximum:{max(scores)}")
 
 if __name__ == "__main__":
     main()
